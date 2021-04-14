@@ -1,4 +1,6 @@
 # Client-Server-Hangman-Python
+The local code is purely for demo purposes and reference
+
 To play:
 Run the Server THEN the Client
 
