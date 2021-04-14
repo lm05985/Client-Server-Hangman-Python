@@ -3,8 +3,8 @@
 #set up variables for socket
 import socket               # Import socket module
 s = socket.socket()         # Create a socket object
-# host = socket.gethostname() # Get local machine name, this works on local machine
-host = socket.gethostbyname(socket.gethostname()) #host =  for razerrrr
+host = socket.gethostname() # Get local machine name, this works on local machine
+# host = socket.gethostbyname(socket.gethostname()) #host = 192.168.0.21 for razerrrr
 port = 12345                # Reserve a port for your service.
 
 s.bind((host, port))        # Bind to the port
